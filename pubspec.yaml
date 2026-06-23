@@ -1,0 +1,36 @@
+name: skydogs
+description: A dark, local-first sleep companion app built with Flutter.
+publish_to: "none"
+
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.5+1
+  dio: ^5.9.2
+  just_audio: ^0.10.5
+  audio_session: ^0.2.3
+  flutter_local_notifications: ^21.0.0
+  timezone: ^0.11.0
+  flutter_timezone: ^5.0.2
+  shared_preferences: ^2.5.5
+  path_provider: ^2.1.5
+  sensors_plus: ^7.0.0
+  uuid: ^4.5.3
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/ambient/
+    - assets/audio/meditation/
+    - assets/certs/isrgrootx1.pem
